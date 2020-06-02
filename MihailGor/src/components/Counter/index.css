@@ -1,0 +1,9 @@
+.counter-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.counter {
+  display: flex;
+  flex-direction: column;
+}

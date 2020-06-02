@@ -35,7 +35,9 @@ class HelloMessage extends Component {
   }
 
   addNewMessage = (data) => {
-    this.setState(({ messages }) => ({ messages: [...messages, data ] }));
+    this.setState(({ messages }) => ({ 
+      messages: [...messages, data ] 
+    }));
   }
 
   render() {
@@ -44,7 +46,7 @@ class HelloMessage extends Component {
 
     return (
       <div>
-        <h2>{`Привет, ${name} ${lastname}`}</h2>
+        <h2 className="title">{`Привет, ${name} ${lastname}`}</h2>
         <ul>
           {messages.map(({text, author}, index) => (
             <li key={index}>

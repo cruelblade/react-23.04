@@ -15,3 +15,7 @@
 # 
 # npm install --save-dev @babel/plugin-proposal-class-properties
 # npm i prop-types
+# 
+# npm install --save-dev css-loader style-loader -D
+# npm install --save-dev mini-css-extract-plugin
+3 ур. 46:40

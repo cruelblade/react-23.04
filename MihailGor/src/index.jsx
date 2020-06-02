@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import HelloMessage from "./components/HelloMessage";
+import "./index.css";
 
 function Output(){
 return (
