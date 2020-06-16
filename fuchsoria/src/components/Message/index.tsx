@@ -1,11 +1,13 @@
 import React from 'react';
-import { IMessageProps } from '../../interfaces';
+import cn from 'classnames';
+import { IMessageWithHandler } from '../../interfaces';
 import styles from './styles.module.scss';
 
-export default function Message({ author, text }: IMessageProps) {
+export default function Message({ author, text, isSelf, handleDelete }: IMessageWithHandler) {
   return (
-    <div className={styles.message}>
-      <span className={styles.messageAuthor}>{author}:</span> {text}
+    <div className={cn([styles.message, { [styles.messageSelf]: isSelf }])} onDoubleClick={handleDelete}>
+      <div className={styles.messageAuthor}>{author}</div>
+      {text}
     </div>
   );
 }

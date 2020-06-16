@@ -1,0 +1,17 @@
+.chatListContainer {
+    width: 200px;
+}
+a { 
+    text-decoration: none; 
+    color: black;
+   } 
+
+a:visited {
+    color: black; 
+   }
+   a:active {
+    color: black; 
+   }
+   .active {
+    color: 'red';
+  }

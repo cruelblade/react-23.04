@@ -69,3 +69,7 @@ Thumbs.db
 dist
 
 .now
+
+stats.json
+stats*.json
+.vercel

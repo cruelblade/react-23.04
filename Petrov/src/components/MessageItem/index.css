@@ -1,0 +1,20 @@
+.message {
+    background-color: lightblue;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 20px;
+    margin: 5px;
+}
+
+.left {
+     align-self: flex-end;
+ }
+
+.right {
+     align-self: flex-start;
+ }
+
+.msender {
+     color: gray;
+     font-size: 14px;
+ }

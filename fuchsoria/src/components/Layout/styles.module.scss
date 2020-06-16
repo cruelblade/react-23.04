@@ -1,0 +1,17 @@
+.layout {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1000px;
+  background-color: #edeef0;
+
+  &__header {
+    padding: 0;
+    background: #3e4146;
+    overflow: hidden;
+  }
+
+  &__footer {
+    border-top: 1px #d6d6d6 solid;
+  }
+}

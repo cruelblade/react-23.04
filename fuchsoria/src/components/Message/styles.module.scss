@@ -1,6 +1,23 @@
 .message {
   padding: 10px 20px;
+  margin-bottom: 10px;
+  text-align: left;
+  align-self: flex-start;
+  background-color: #ffff;
+  border-radius: 10px;
+  max-width: 400px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  &_self {
+    text-align: right;
+    align-self: flex-end;
+  }
+
   &__author {
+    user-select: none;
     text-transform: capitalize;
     font-weight: 700;
   }

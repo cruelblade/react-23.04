@@ -1,11 +1,9 @@
 .chat-form {
-  padding: 20px;
-  background-color: #e8e8e8;
-  &__input {
-    padding: 5px;
-  }
-  &__button {
-    box-sizing: border-box;
-    height: 32px;
+  padding: 10px;
+  background-color: #d6d6d6;
+
+  &__group {
+    display: flex;
+    align-items: center;
   }
 }

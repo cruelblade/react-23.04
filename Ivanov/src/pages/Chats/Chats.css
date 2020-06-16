@@ -1,0 +1,18 @@
+.container {
+    background-color: burlywood;
+    border: 1px solid black;
+    flex-grow: 3;
+    padding: 10px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.messageField {
+    margin-bottom: 10px;
+    width: 100%;
+}

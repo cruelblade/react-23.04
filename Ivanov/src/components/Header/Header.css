@@ -1,0 +1,8 @@
+.root {
+    display: flex;
+    z-index: 2;
+}
+
+.title {
+    flex-grow: 1;
+}

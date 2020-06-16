@@ -1,0 +1,15 @@
+[
+    {
+        "id": 1,
+        "chatId": 1,
+        "text": "Hello!",
+        "author": "Robot"
+    },
+    {
+        "id": 2,
+        "chatId": 1,
+        "text": "How do you do?",
+        "author": "Robot"
+    }
+ ]
+ 

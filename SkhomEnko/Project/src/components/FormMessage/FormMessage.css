@@ -1,0 +1,96 @@
+.input-panel {
+  display: inline-flex;
+  width: 100%;
+  background-color: black;
+  justify-content: space-between;
+  font-size: larger;
+}
+
+textarea[name="text"] {
+  width: -webkit-fill-available;
+  padding-top: 8px;
+  padding-left: 10px;
+  margin: 6px;
+  border: 0;
+  border-radius: 20px;
+}
+
+textarea[name="text"]:focus {
+  outline: none;
+}
+
+.emoji-selector {
+  position: relative;
+  vertical-align: top;
+  padding: 6px;
+}
+
+.emoji-list-toggle {
+  height: 100%;
+  min-width: 45px;
+  border: 0;
+  cursor: pointer;
+  background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMTIgMmM1LjUxNCAwIDEwIDQuNDg2IDEwIDEwcy00LjQ4NiAxMC0xMCAxMC0xMC00LjQ4Ni0xMC0xMCA0LjQ4Ni0xMCAxMC0xMHptMC0yYy02LjYyNyAwLTEyIDUuMzczLTEyIDEyczUuMzczIDEyIDEyIDEyIDEyLTUuMzczIDEyLTEyLTUuMzczLTEyLTEyLTEyem01LjUwNyAxMy45NDFjLTEuNTEyIDEuMTk1LTMuMTc0IDEuOTMxLTUuNTA2IDEuOTMxLTIuMzM0IDAtMy45OTYtLjczNi01LjUwOC0xLjkzMWwtLjQ5My40OTNjMS4xMjcgMS43MiAzLjIgMy41NjYgNi4wMDEgMy41NjYgMi44IDAgNC44NzItMS44NDYgNS45OTktMy41NjZsLS40OTMtLjQ5M3ptLTkuMDA3LTUuOTQxYy0uODI4IDAtMS41LjY3MS0xLjUgMS41cy42NzIgMS41IDEuNSAxLjUgMS41LS42NzEgMS41LTEuNS0uNjcyLTEuNS0xLjUtMS41em03IDBjLS44MjggMC0xLjUuNjcxLTEuNSAxLjVzLjY3MiAxLjUgMS41IDEuNSAxLjUtLjY3MSAxLjUtMS41LS42NzItMS41LTEuNS0xLjV6Ii8+PC9zdmc+');
+  background-size: 100% 100%;
+  filter: invert(1);
+}
+
+.input-panel button:focus {
+  outline: none;
+}
+
+button[type="submit"] {
+  margin: 6px;
+  min-width: 70px;
+  font-size: 16px;
+  font-weight: 600;
+  border: 0;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.emoji-list {
+  z-index: 1;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 50px;
+  right: -20px;
+  border-right: 3px solid transparent;
+  border-top: 3px solid transparent;
+  border-bottom: 3px solid transparent;
+  padding-left: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  justify-content: flex-start;
+  max-height: 200px;
+  min-width: 190px;
+  background-color: WhiteSmoke;
+  overflow: auto;
+  background-image: url('data:image/svg+xml,%3Csvg width="20" height="26" viewBox="0 0 52 26" xmlns="http://www.w3.org/2000/svg"%3E%3Cg fill="none" fill-rule="evenodd"%3E%3Cg fill="green" fill-opacity="0.2"%3E%3Cpath d="M10 10c0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6h2c0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4v2c-3.314 0-6-2.686-6-6 0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6zm25.464-1.95l8.486 8.486-1.414 1.414-8.486-8.486 1.414-1.414z" /%3E%3C/g%3E%3C/g%3E%3C/svg%3E');
+}
+
+.hide {
+  display: none;
+}
+
+.emoji-list a {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.emoji-list::-webkit-scrollbar {
+  width: 6px;
+  height: 2px;
+}
+ 
+.emoji-list::-webkit-scrollbar-thumb {
+  background: #666;
+  border-radius: 10px;
+  
+}
+
+.emoji-list::-webkit-scrollbar-track {
+  background: #ddd;
+  border-radius: 15px;
+}

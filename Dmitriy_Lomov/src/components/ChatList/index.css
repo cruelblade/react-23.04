@@ -1,0 +1,15 @@
+.highlighter {
+  animation: highlight 500ms linear 1 alternate;
+}
+
+@keyframes highlight {
+  0% {
+    background: inherit;
+  }
+  50% {
+    background: #78aeff;
+  }
+  100% {
+    background: inherit;
+  }
+}

@@ -1,0 +1,17 @@
+.list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.item {
+    max-width: 20%;
+}
+
+.left {
+    align-self: flex-start;
+}
+
+.right {
+    align-self: flex-end;
+}

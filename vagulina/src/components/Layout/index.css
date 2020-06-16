@@ -1,0 +1,9 @@
+.layout {
+    display: flex;
+    flex-direction: column;
+}
+
+.canvas {
+    display: flex;
+    height: 1000px;
+}

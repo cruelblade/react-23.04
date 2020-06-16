@@ -1,10 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import MessageRender from './components/MessageRender';
+import App from './components/App';
 
-
-ReactDOM.render(
-    <MessageRender />,
-    document.getElementById("app")
-);
-    
+ReactDOM.render(<App />, document.getElementById('app'));

@@ -1,0 +1,17 @@
+.chat-list {
+  width: 15%;
+}
+
+.btn-container button {
+  display: block;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  background-color: #188ac7;
+  color: #fff;
+  cursor: pointer;
+}
+
+.btn-container button:not(:last-child) {
+  margin: 0 0 5px;
+}

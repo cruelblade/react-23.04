@@ -1,0 +1,23 @@
+.list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.item {
+    max-width: 250px;
+}
+
+.left {
+    align-self: flex-start;
+}
+
+.right {
+    align-self: flex-end;
+}
+
+.author {
+    color: gray;
+    font-size: 12px;
+    font-weight: bold;
+}

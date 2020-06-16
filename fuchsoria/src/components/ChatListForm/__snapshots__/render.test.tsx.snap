@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ChatListForm /> Component should render 1`] = `
+<div>
+  <form
+    class="form"
+  >
+    <input
+      class="ant-input"
+      placeholder="Введите название"
+      type="text"
+      value=""
+    />
+    <button
+      class="ant-btn"
+      type="submit"
+    >
+      <span>
+        Создать чат
+      </span>
+    </button>
+  </form>
+</div>
+`;

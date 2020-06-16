@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MessageList /> Component should render 1`] = `
+<div>
+  <div
+    class="messageList"
+  >
+    <div
+      class="message"
+    >
+      <div
+        class="messageAuthor"
+      >
+        Jest 1
+      </div>
+      Jest first example message
+    </div>
+    <div
+      class="message"
+    >
+      <div
+        class="messageAuthor"
+      >
+        Jest
+      </div>
+      Jest second example message
+    </div>
+    <div
+      class="message"
+    >
+      <div
+        class="messageAuthor"
+      >
+        Robot
+      </div>
+      Hi Jest, i am your personal assistant
+    </div>
+  </div>
+</div>
+`;

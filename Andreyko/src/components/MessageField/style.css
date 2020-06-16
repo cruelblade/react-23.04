@@ -1,0 +1,41 @@
+.message-filed {
+  width: calc(85% - 20px);
+}
+
+.message-filed .chat-field {
+  height: 300px;
+  margin: 0 0 10px;
+  padding: 20px;
+  overflow: auto;
+}
+
+.message-filed .chat-field:hover{
+  overflow-y: auto;
+	overflow-x: hidden;
+	-webkit-overflow-scrolling: touch;
+	-moz-overflow-scrolling: touch;
+	-ms-overflow-scrolling: touch;
+	-o-overflow-scrolling: touch;
+	overflow-scrolling: touch;
+}
+
+.message-filed .chat-field::-webkit-scrollbar {
+	-webkit-appearance: none;
+	width: 7px;
+}
+
+.message-filed .chat-field::-webkit-scrollbar-thumb {
+	border-radius: 2px;
+	background-color: rgba(16, 36, 90, 0.5);
+	-webkit-box-shadow: 0 0 1px rgba(255,255,255,0.5);
+}
+
+.btn-text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.MuiFormControl-root {
+  width: 80%;
+}

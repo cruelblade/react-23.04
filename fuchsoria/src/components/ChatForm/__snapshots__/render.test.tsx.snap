@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ChatForm /> Component should render 1`] = `
+<div>
+  <form
+    class="chatForm"
+  >
+    <div
+      class="chatFormGroup"
+    >
+      <input
+        class="ant-input"
+        placeholder="Your Message"
+        type="text"
+        value=""
+      />
+      <button
+        class="ant-btn ant-btn-primary"
+        type="submit"
+      >
+        <span>
+          Send Message
+        </span>
+      </button>
+    </div>
+  </form>
+</div>
+`;
